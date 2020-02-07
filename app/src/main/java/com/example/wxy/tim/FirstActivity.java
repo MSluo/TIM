@@ -21,7 +21,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         if (v.getId()==R.id.login_one)
         {
-            Intent intent=new Intent(FirstActivity.this,MainActivity.class);
+            Intent intent=new Intent(FirstActivity.this, LoginActivity.class);
             startActivity(intent);
             finish();
         }
